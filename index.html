@@ -22,9 +22,9 @@
         
 
         <h1>Email list:</h1>
-        <ol >
+        <ol v-if="emailArray.length === 10">
             <li v-for="email in emailArray">
-                {{email}}
+               <span>{{email}}</span> 
             </li>
         </ol>
     
