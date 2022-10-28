@@ -4,7 +4,6 @@ createApp({
     data() {
         return {
             emailArray: [],
-            emailLength: false
         }
     },
     methods: {
