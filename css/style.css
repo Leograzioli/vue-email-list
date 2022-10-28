@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    max-width: 1100px;
+    margin: 100px auto;
+}
+
+ol {
+    margin-top: 20px;
+}
