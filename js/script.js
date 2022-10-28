@@ -4,6 +4,7 @@ createApp({
     data() {
         return {
             emailArray: [],
+            arrayLengthNumber: 10
         }
     },
     methods: {
@@ -11,7 +12,7 @@ createApp({
     },
     created() {
         
-        for (let i = 0; i < 10; i++) { 
+        for (let i = 0; i < this.arrayLengthNumber; i++) { 
             axios
             .get(`https://flynn.boolean.careers/exercises/api/random/mail`)
             .then((resp) => {
