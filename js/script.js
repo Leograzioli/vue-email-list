@@ -7,11 +7,7 @@ createApp({
             arrayLengthNumber: 10
         }
     },
-    methods: {
-       
-    },
     created() {
-        
         for (let i = 0; i < this.arrayLengthNumber; i++) { 
             axios
             .get(`https://flynn.boolean.careers/exercises/api/random/mail`)
@@ -21,4 +17,3 @@ createApp({
         }  
     }
 }).mount("#app") 
-    
